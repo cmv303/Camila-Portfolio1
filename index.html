@@ -1,88 +1,128 @@
 <!-- Global -->
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Assets/CSS/style.css"/>
-    <link rel="icon" type="image/x-icon" href="//TODO: INSERT FAVCON HERE//"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Assets/CSS/style.css" />
+    <link rel="icon" type="image/x-icon" href="//TODO: INSERT FAVCON HERE//" />
     <title>CAMILA MOREIRAS' CODING PORTFOLIO</title>
-</head>
+  </head>
 
   <!-- Body -->
-<body>
+  <body>
     <header>
-        <h1>Camila Moreiras</h1>
-        <nav>
-            <ul class="nav-list">
-                <li>
-                    <a href="#coding">CODING</a>
-                </li>
-                <li>
-                    <a href="#about">ABOUT</a>
-                </li>
-                <li>
-                    <a href="#contact">CONTACT</a>
-                </li>
-            </ul>
-        </nav>
+      <h1>Camila Moreiras</h1>
+      <nav>
+        <ul class="nav-list">
+          <li>
+            <a href="#coding">CODING</a>
+          </li>
+          <li>
+            <a href="#about">ABOUT</a>
+          </li>
+          <li>
+            <a href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
-     <!-- Main Sections -->
+    <!-- Main Sections -->
     <hero>
-        <img src="./Assets/images/IMG_6159+copy.png" alt="picture of Camila at FICG festival" class="img">
+      <img
+        src="./Assets/images/IMG_6159+copy.png"
+        alt="picture of Camila at FICG festival"
+        class="img-hero"
+      />
     </hero>
     <main>
-    <section class="coding" id="coding">
-            <h2>Coding</h2>
-            <p>I'm a newbie at this, so please enjoy some placeholder boxes and pictures!</p>
-    </section>
+      <section class="coding" id="coding">
+        <h2>Coding</h2>
+        <article class="article-columns">
+          <h4>Refactoring Project</h4>
+          <img
+            src="./Assets/images/download-1.jpg"
+            alt="stock image of various icons depicting what it is like to refactor and simplify your code"
+            class="img"
+            id="larger-project-img"
+          />
+          <p>
+            Refactoring allows ease of down-the-line debugging as it simplifies
+            code and increases accessibility and readability.
+          </p>
+        </article>
 
-    <section class="grid-work" id="grid-work">
-        <p>Refactoring Project</p>
-        <p>Responsive Layout</p>
-        <p>Database Management</p>
-    </section>
+        <article class="article-columns">
+          <h4>Responsive Layout</h4>
+          <img
+            src="./Assets/images/download-2.jpg"
+            alt="stock computer drawing of four different layout sizes: mobile, ipad laptop, and desktop"
+            class="img"
+          />
+          <p>
+            Having responsive layouts means a seamless user experience when
+            viewing on various devices.
+          </p>
+        </article>
 
-    
-    <section class="about" id="about">
-        <h2> About</h2>
-        <p>CAMILA MOREIRAS (1986) is an hispanic artist who makes experimental and creative documentaries. Her work has been exhibited and screened in festivals and venues such as IDFA, Festival Internacional de Cine en Guadalajara, Festival Internacional de Cine Las Palmas de Gran Canaria, Laboratorio Arte Alameda, San Diego Underground Festival, and Los Angeles Underground Film Forum (best experimental short 2018).
-        </p>
-        <p> She is currently taking a Coding Bootcamp and hopes that, among other things, she can make a cool new media project someday!
+        <article class="article-columns">
+          <h4>Database Management</h4>
+          <img
+            src="./Assets/images/download.jpg"
+            alt="stock picture of hands on a laptop keyboard"
+            class="img"
+          />
+          <p>Keep an inventory record to keep yourself organized!</p>
+        </article>
+      </section>
+
+      <section class="about" id="about">
+        <h2>About</h2>
+        <p>
+          CAMILA MOREIRAS (1986) is an hispanic artist who makes experimental
+          and creative documentaries. Her work has been exhibited and screened
+          in festivals and venues such as IDFA, Festival Internacional de Cine
+          en Guadalajara, Festival Internacional de Cine Las Palmas de Gran
+          Canaria, Laboratorio Arte Alameda, San Diego Underground Festival, and
+          Los Angeles Underground Film Forum (best experimental short 2018).
         </p>
         <p>
-        Moreiras holds a doctorate in Spanish and Portuguese Languages and Literature from New York University, and a master's degree in creative documentary from the Pompeu Fabra University in Barcelona, Spain.
+          She is currently taking a Coding Bootcamp and hopes that, among other
+          things, she can make a cool new media project someday!
         </p>
-    </section>
+        <p>
+          Moreiras holds a doctorate in Spanish and Portuguese Languages and
+          Literature from New York University, and a master's degree in creative
+          documentary from the Pompeu Fabra University in Barcelona, Spain.
+        </p>
+      </section>
 
-    <!-- Contact Form -->
-    <form class="form" id="contact">
+      <!-- Contact Form -->
+      <form class="form" id="contact">
         <h2>Contact</h2>
         <section class="form-row">
-            <label for="name" class="form-label">Name</label>
-        <input type="text" class="form-input" id="name">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-input" id="name" />
         </section>
 
         <section class="form-row">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-input" id="email">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-input" id="email" />
         </section>
 
         <section class="form-row">
-            <label for="subject" class="form-label">Subject</label>
-            <input type="subject" class="form-input" id="subject">
+          <label for="subject" class="form-label">Subject</label>
+          <input type="subject" class="form-input" id="subject" />
         </section>
 
         <section class="form-row">
-            <label for="message" class="form-label">Message</label>
-            <textarea class="message-area" id="message"></textarea>
+          <label for="message" class="form-label">Message</label>
+          <textarea class="message-area" id="message"></textarea>
         </section>
         <section class="btn">Submit</section>
-    </form>
+      </form>
     </main>
-
-</body>
+  </body>
 </html>
-
