@@ -99,29 +99,50 @@ nav ul li {
   max-width: var(--max-width);
 }
 
-.article-columns {
-  color: var(--bodyTextColor);
-  gap: 1em;
-  margin: 1em 6em 1em;
-}
-
-.img {
-  border: 5px solid var(--Grey700);
-  border-radius: var(--borderRadius);
-  display: block;
-  object-fit: cover;
-  max-width: 350px;
-  width: 100vw;
-}
-
 #larger-project-img {
+  background-image: url(https://picsum.photos/seed/picsum/200/300?grayscale);
+  border: 5px solid var(--Grey700);
+  border-radius: var(--borderRadius);
+  color: var(--Primary500);
+  display: block;
+  gap: 3em;
+  margin: 1em 6em 1em;
+  object-fit: cover;
+  max-height: 500px;
+  max-width: 500px;
+  height: 75vh;
+  width: 100vw;
+}
+
+#larger-project-img:hover {
+  background: var(--Primary300);
+  box-shadow: var(--shadow-2);
+}
+
+#img {
+  color: var(--Primary500);
+  background-image: url(https://picsum.photos/seed/picsum/200/300?grayscale);
   border: 5px solid var(--Grey700);
   border-radius: var(--borderRadius);
   display: block;
+  gap: 3em;
+  margin: 1em 6em 1em;
   object-fit: cover;
-  max-width: 500px;
+  max-height: 350px;
+  max-width: 350px;
+  height: 75vh;
   width: 100vw;
+  text-align: justify;
 }
+#img-text {
+  color: var(--Primary700)
+}
+
+#img:hover {
+  background: var(--Primary300);
+  box-shadow: var(--shadow-2);
+}
+
 
 /* Form */
 .form {
