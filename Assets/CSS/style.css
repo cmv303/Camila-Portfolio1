@@ -114,11 +114,6 @@ nav ul li {
   width: 100vw;
 }
 
-#larger-project-img:hover {
-  background: var(--Primary300);
-  box-shadow: var(--shadow-2);
-}
-
 #img {
   color: var(--Primary500);
   background-image: url(https://picsum.photos/seed/picsum/200/300?grayscale);
@@ -137,12 +132,6 @@ nav ul li {
 #img-text {
   color: var(--Primary700)
 }
-
-#img:hover {
-  background: var(--Primary300);
-  box-shadow: var(--shadow-2);
-}
-
 
 /* Form */
 .form {
@@ -177,7 +166,23 @@ nav ul li {
   text-transform: capitalize;
 }
 
-.btn:hover {
+.article-btn {
+  cursor: pointer;
+  color: var(--headingTextColor);
+  background: var(--Primary300);
+  border: transparent;
+  border-radius: var(--borderRadius);
+  box-shadow: var(--shadow-1);
+  display: block;
+  word-wrap: normal;
+  margin: 10em 5em;
+  padding: 0.375rem 0.85rem;
+  text-align: start;
+  transition: var(--transition);
+}
+
+.btn:hover,
+.article-btn:hover {
   background: var(--Primary700);
   box-shadow: var(--shadow-2);
 }
