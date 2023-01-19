@@ -99,8 +99,8 @@ nav ul li {
   max-width: var(--max-width);
 }
 
-#larger-project-img {
-  background-image: url(https://picsum.photos/seed/picsum/200/300?grayscale);
+#img-lyric {
+  background-image: url("./lyricallyDemo.png");
   border: 5px solid var(--Grey700);
   border-radius: var(--borderRadius);
   color: var(--Primary500);
